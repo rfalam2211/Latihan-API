@@ -23,7 +23,7 @@ def getWelcome():
     }
 
 #endpoint untuk menampilkan semua isi dataset
-@app.get("/data")
+@app.get("/profile")
 def getData():
     #mengambil data dari csv
     df = pd.read_csv('teams.csv')
